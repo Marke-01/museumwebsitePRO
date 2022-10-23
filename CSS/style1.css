@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)), url('museum2.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+nav .logo{
+	width: 25%;
+	text-align: center;
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+main a{
+	color: white;
+	text-decoration: none;
+}
+.button1:hover{
+	/*background: #00b894;*/
+	/*background: white;*/
+	color: black;
+}
+td:hover {
+  background-color: blueviolet;
+  color: black;
+  /*color: #000000;*/
+}
+.month{
+	background: rgba(0, 0, 0, 0.5);
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
